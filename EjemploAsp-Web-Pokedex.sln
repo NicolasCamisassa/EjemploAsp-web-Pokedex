@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploAsp-Web-Pokedex", "EjemploAsp-Web-Pokedex\EjemploAsp-Web-Pokedex.csproj", "{32277788-5D2C-4D0E-BD4B-97AF26AFC418}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPokedex", "EjemploAsp-Web-Pokedex\WebPokedex.csproj", "{32277788-5D2C-4D0E-BD4B-97AF26AFC418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{C1ADD31A-9B37-4ABB-8D36-FA54409700BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{F7555346-1F2A-4026-AD13-9B3517E60848}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{32277788-5D2C-4D0E-BD4B-97AF26AFC418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32277788-5D2C-4D0E-BD4B-97AF26AFC418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32277788-5D2C-4D0E-BD4B-97AF26AFC418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1ADD31A-9B37-4ABB-8D36-FA54409700BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1ADD31A-9B37-4ABB-8D36-FA54409700BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1ADD31A-9B37-4ABB-8D36-FA54409700BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1ADD31A-9B37-4ABB-8D36-FA54409700BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7555346-1F2A-4026-AD13-9B3517E60848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7555346-1F2A-4026-AD13-9B3517E60848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7555346-1F2A-4026-AD13-9B3517E60848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7555346-1F2A-4026-AD13-9B3517E60848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

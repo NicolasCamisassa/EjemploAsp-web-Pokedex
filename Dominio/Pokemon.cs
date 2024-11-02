@@ -18,9 +18,6 @@ namespace Dominio // cambiar el namespace al nuevo proyecto
         public string UrlImagen { get; set; }
         public Elemento Tipo { get; set; } //NUEVA PROPIEDAD DE LA CLASE ELEMENTOS
         public Elemento Debilidad { get; set; }
-
-
-
-
+        public bool Activo {  get; set; }
     }
 }
